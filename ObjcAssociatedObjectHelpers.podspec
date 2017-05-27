@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.author       = { "Jonathan Crooke" => "joncrooke@gmail.com" }
 	s.source       = { :git => "https://github.com/itsthejb/ObjcAssociatedObjectHelpers.git", :tag => "v#{s.version.to_s}" }
   s.ios.deployment_target = '5.0'
+  s.tvos.deployment_target = '10.0'
   s.osx.deployment_target = '10.7'
   s.frameworks = 'Foundation'
   s.requires_arc = true
